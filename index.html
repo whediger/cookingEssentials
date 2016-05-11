@@ -9,11 +9,17 @@
   </head>
   <body>
     <h1>Cooking Essentials</h1>
-
-    <form class="foodSearch" action="#" method="post">
-      <label for="foodNameIn">Food Name: </label>
-        <input type="text" name="foodSearch" id="foodNameIn">
-        <input type="submit" name="name" value="search">
+    <main>
+      <form class="foodSearch" action="#" method="">
+        <select class="selectCatagory" name="foodSearch">
+          <option value="default" disabled="">choose a catagory</option>
+        </select>
+        <br>
+        <br>
+        <label for="foodNameIn">Food Name: </label>
+          <input type="text" name="foodSearch" id="foodNameIn">
+          <input id="submit" type="submit" name="name" value="search">
+    </main>
     </form>
   </body>
 </html>
